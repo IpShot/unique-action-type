@@ -8,6 +8,22 @@
 
 Simple way to make sure that you are not duplicating action types. It just pushes all your actions to an array and check if a new one exists or not.
 
+## Installation
+```sh
+# If you use npm:
+npm install unique-action-types
+
+# Or if you use Yarn:
+yarn add unique-action-types
+```
+
+## Usage
+```js
+import unique from 'unique-action-types';
+
+const UPDATE_TITLE = unique('UPDATE_TITLE');
+```
+
 ## License
 
 [MIT](LICENSE.md)
